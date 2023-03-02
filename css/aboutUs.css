@@ -1,0 +1,83 @@
+/* 关于我们 */
+.product-display {
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.product-display p {
+    height: 31px;
+    /* background-color: pink; */
+    font-size: 20px;
+    color: black;
+}
+.product-display a{
+    color: black;
+    
+}
+.product-display img{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    /* display: none; */
+    top: 6;
+    left: 0; 
+}
+.main{
+    display: flex;
+}
+.main-left {
+    width: 325px;
+    height: 720px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.main-left ul{
+    width: 325px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+.main-left li{
+    width: 325px;
+    height: 60px;
+    border: 1px solid #757575;
+    background-color: #f2f2f2;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    
+}
+.main-left li a {
+    color: black;
+    font-weight: 800;
+}
+.main-left ul img{
+    width: 325px;
+    height: 285px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.main-right{
+    width: 901px;
+    /* border: 1px solid red; */
+    margin: 30px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.main-right h3{
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.main-right p{
+    line-height: 30px;
+    text-indent: 20px;
+}
+/* 关于我们 */

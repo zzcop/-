@@ -1,0 +1,97 @@
+/* 侧栏效果 */
+.product-display {
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.product-display p {
+    height: 31px;
+    /* background-color: pink; */
+    font-size: 20px;
+    color: black;
+}
+
+.product-display a {
+    color: black;
+
+}
+
+.product-display img {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    /* display: none; */
+    top: 6;
+    left: 0;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    width: 170px;
+    height: 720px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.main-left ul {
+    width: 210px;
+    /* height: 370px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left li {
+    width: 210px;
+    height: 70px;
+    border: 1px solid #757575;
+    background-color: #f2f2f2;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+
+}
+
+.main-left li a {
+    color: black;
+    font-weight: 800;
+}
+
+.main-left ul img {
+    width: 210px;
+    height: 285px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.main-right ul{
+    width: 1016px;
+    margin: 60px;
+}
+.main-right  ul li{
+    height: 120px;
+    border-bottom: 1px solid #333;
+    /* line-height: 100px; */
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.main-right  ul li a h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.date{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.main-right  ul li a p{
+    color:#333;
+}
+/* 侧栏效果结束 */
